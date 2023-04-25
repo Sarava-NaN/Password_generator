@@ -66,7 +66,7 @@ body {
     cursor: pointer;
 }
 /* Media Query */
-@media screen and (max-width:360px) { 
+@media screen and (max-width:340px) { 
         .container {
             margin:8%;
             max-width: 700px;
@@ -87,7 +87,7 @@ body {
        }
         .container h1 {
             font-weight: 500;
-            font-size: 36px;
+            font-size: 30px;
         }
         .display img {
             width: 26px;
@@ -96,7 +96,7 @@ body {
         .display input {
             border:none;
             outline: none;
-            font-size: 21px;      
+            font-size: 18px;      
         }    
         .container button img {
             width: 28px;
