@@ -96,7 +96,7 @@ body {
         .display input {
             border:none;
             outline: none;
-            font-size: 15px;      
+            font-size: 18px;      
         }    
         .container button img {
             width: 28px;
@@ -195,7 +195,7 @@ body {
         }
     .display input {
         padding: 10px 20px;
-            font-size:15px;
+            font-size:20px;
         }
                    .container button img {
                        width: 32px;
@@ -208,4 +208,55 @@ body {
                        padding: 16px 22px;
                        cursor: pointer;
                    }
+}
+@media screen and (max-width:430px) {
+    .display {
+        margin-top: 50px;
+        margin-bottom: 40px;
+        border-radius: 15px;
+        padding: 10px;
+    }
+
+    .container h1 span {
+        border-bottom: 10px solid var(--secondary);
+        padding-bottom: 14px;
+    }
+
+    .mtp {
+        margin-top: 20px;
+        display: inline-block;
+    }
+
+    .container h1 {
+        font-weight: 500;
+        font-size: 30px;
+    }
+
+    .display img {
+        width: 26px;
+        margin-left: -90px;
+    }
+
+    .display input {
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+
+    .container button img {
+        width: 32px;
+        margin-right: 15px;
+    }
+
+    .container button {
+        font-size: 22px;
+        font-weight: 900;
+        padding: 16px 22px;
+        cursor: pointer;
+    }
+}
+@media screen and (max-width:365px) {
+    .display input {
+        padding: 10px 20px;
+        font-size: 10px;
+    }
 }
