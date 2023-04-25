@@ -96,7 +96,7 @@ body {
         .display input {
             border:none;
             outline: none;
-            font-size: 18px;      
+            font-size: 14px;      
         }    
         .container button img {
             width: 28px;
@@ -195,7 +195,7 @@ body {
         }
     .display input {
         padding: 10px 20px;
-            font-size:20px;
+            font-size:14px;
         }
                    .container button img {
                        width: 32px;
@@ -239,7 +239,7 @@ body {
 
     .display input {
         padding: 10px 20px;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .container button img {
